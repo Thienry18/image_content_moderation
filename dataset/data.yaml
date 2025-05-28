@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Accident', 'Adult-Content', 'Blood', 'Blood-and-Gore', 'Explosion', 'Gore', 'Nudity', 'Suicide']
+
+roboflow:
+  workspace: content-moderation-9ibah
+  project: content-moderation-1-ipsdl-ml7wh
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/content-moderation-9ibah/content-moderation-1-ipsdl-ml7wh/dataset/1
